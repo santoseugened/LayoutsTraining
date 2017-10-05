@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsTraining.StackLayout"
+             BackgroundColor="White">
+    <StackLayout HorizontalOptions="Fill">
+        <Label Text="Eugene Santos" TextColor="Black" Margin="5"/>
+        <Image Source="image1.png"></Image>
+       
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Like" TextColor="DeepSkyBlue" Margin="5"/>
+            <Label Text="Comment" TextColor="DeepSkyBlue" Margin="5"/>
+            <Label Text="Share" TextColor="DeepSkyBlue" Margin="5"/>
+        </StackLayout>
+
+        <BoxView Color="#f0f0f0" HeightRequest="1" Margin="0,10,0,0"/>
+
+        <Label Text="700 likes" TextColor="Black" FontAttributes="Bold" Margin="10,4,10,0"/>
+        <Label Text="This is my shot!" TextColor="Gray" Margin="10,0,10,0"/>
+
+    </StackLayout>
+</ContentPage>

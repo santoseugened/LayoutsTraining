@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:LayoutsTraining"
+            xmlns:layoutsTraining="clr-namespace:LayoutsTraining;assembly=LayoutsTraining"
+            x:Class="LayoutsTraining.StartPage">
+
+    <TabbedPage.Children >
+        <layoutsTraining:MainPage Title="Stack Layout"/>
+        <layoutsTraining:GridStackLayouut Title="Grid Layout" />
+        <layoutsTraining:ImageExercise Title="Image Exercise"/>
+    </TabbedPage.Children>
+
+</TabbedPage>

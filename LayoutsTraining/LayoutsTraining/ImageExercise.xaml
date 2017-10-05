@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsTraining.ImageExercise"
+             BackgroundColor="#127ac7">
+
+    <ContentPage.Content>
+        
+        <StackLayout Orientation="Vertical">
+            
+            <StackLayout Orientation="Horizontal" Padding="10">
+                <Image HorizontalOptions="StartAndExpand" Source="back.png"/>
+                <ActivityIndicator IsRunning="True" HorizontalOptions="CenterAndExpand"/>
+                <Image HorizontalOptions="EndAndExpand" Source="next.png"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+                <Image Source="image.png"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
